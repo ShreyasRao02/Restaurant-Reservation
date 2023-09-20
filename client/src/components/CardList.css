@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
+
 .CardList {
   margin: 30px;
 }
@@ -14,4 +16,9 @@
   overflow-x: auto;
   flex-wrap: nowrap;
 }
-
+.menu-heading {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 30px;
+}

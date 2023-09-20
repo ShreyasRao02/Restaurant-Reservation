@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
+
 
 .Card {
   min-width: 400px;
@@ -77,4 +79,10 @@
 .Card-inner-right > div > button:hover {
 	transform: translateY(-3px);
 	transition: all 0.5s cubic-bezier(.165,.84,.44,1);
+}
+
+.Card-inner-right > div > button:disabled {
+  background-color: #ccc; /* You can keep it the same as the disabled background color */
+  color: #666; /* You can keep it the same as the disabled text color */
+  /* You can add more hover styles if needed */
 }
